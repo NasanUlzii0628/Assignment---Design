@@ -53,19 +53,27 @@ namespace Assignment___Design
                     MessageBox.Show("Мэдээллээ бүрэн оруулна уу");
                 }
             }
-            else if (type2.Checked) {
+            else if (type2.Checked)
+            {
                 if (combo2.SelectedItem != null)
                 {
                     MessageBox.Show("Данс амжилттай нээгдлэээ");
+                    this.Hide();
                 }
                 else
                 {
                     MessageBox.Show("Мэдээллээ бүрэн оруулна уу");
                 }
             }
-            else if(radioButton1.Checked)
+            else if (radioButton1.Checked)
             {
                 MessageBox.Show("Данс амжилттай нээгдлэээ");
+                this.Hide();
+            }
+            else {
+                MessageBox.Show("Мэдээллээ бүрэн оруулна уу!");
+
+
             }
         }
 
@@ -84,6 +92,11 @@ namespace Assignment___Design
         }
 
         private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NewAccount_Load(object sender, EventArgs e)
         {
 
         }

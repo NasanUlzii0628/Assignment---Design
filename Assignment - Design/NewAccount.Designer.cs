@@ -49,45 +49,46 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 31);
+            this.label1.Location = new System.Drawing.Point(49, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 20);
+            this.label1.Size = new System.Drawing.Size(107, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Дансны төрөл:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(55, 190);
+            this.label3.Location = new System.Drawing.Point(49, 152);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 20);
+            this.label3.Size = new System.Drawing.Size(97, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Бүтээгдэхүүн:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(55, 256);
+            this.label4.Location = new System.Drawing.Point(49, 205);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 20);
+            this.label4.Size = new System.Drawing.Size(114, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "Мөнгөн тэмдэгт:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(55, 322);
+            this.label5.Location = new System.Drawing.Point(49, 258);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(190, 20);
+            this.label5.Size = new System.Drawing.Size(158, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "Үлдэгдэл суутгах данс:";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(52, 28);
+            this.radioButton1.Location = new System.Drawing.Point(46, 22);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(107, 24);
+            this.radioButton1.Size = new System.Drawing.Size(92, 21);
             this.radioButton1.TabIndex = 5;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Харилцах";
@@ -97,9 +98,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(199, 28);
+            this.radioButton2.Location = new System.Drawing.Point(177, 22);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(122, 24);
+            this.radioButton2.Size = new System.Drawing.Size(101, 21);
             this.radioButton2.TabIndex = 6;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Хадгаламж";
@@ -110,9 +112,10 @@
             // 
             this.type1.AutoSize = true;
             this.type1.Enabled = false;
-            this.type1.Location = new System.Drawing.Point(52, 25);
+            this.type1.Location = new System.Drawing.Point(46, 20);
+            this.type1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.type1.Name = "type1";
-            this.type1.Size = new System.Drawing.Size(122, 24);
+            this.type1.Size = new System.Drawing.Size(105, 21);
             this.type1.TabIndex = 7;
             this.type1.TabStop = true;
             this.type1.Text = "Хугацаатай";
@@ -123,9 +126,10 @@
             // 
             this.type2.AutoSize = true;
             this.type2.Enabled = false;
-            this.type2.Location = new System.Drawing.Point(199, 25);
+            this.type2.Location = new System.Drawing.Point(177, 20);
+            this.type2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.type2.Name = "type2";
-            this.type2.Size = new System.Drawing.Size(118, 24);
+            this.type2.Size = new System.Drawing.Size(102, 21);
             this.type2.TabIndex = 8;
             this.type2.TabStop = true;
             this.type2.Text = "Хугацаагүй";
@@ -141,9 +145,10 @@
             "Хүүгээр арвижих хадгаламж",
             "Хүүхдийн хадгаламж",
             "Малчны хадгаламж"});
-            this.product.Location = new System.Drawing.Point(101, 225);
+            this.product.Location = new System.Drawing.Point(90, 180);
+            this.product.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.product.Name = "product";
-            this.product.Size = new System.Drawing.Size(330, 28);
+            this.product.Size = new System.Drawing.Size(294, 24);
             this.product.TabIndex = 9;
             // 
             // combo2
@@ -153,9 +158,10 @@
             "MNT",
             "USD",
             "EUR"});
-            this.combo2.Location = new System.Drawing.Point(101, 291);
+            this.combo2.Location = new System.Drawing.Point(90, 233);
+            this.combo2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.combo2.Name = "combo2";
-            this.combo2.Size = new System.Drawing.Size(330, 28);
+            this.combo2.Size = new System.Drawing.Size(294, 24);
             this.combo2.TabIndex = 10;
             // 
             // combo3
@@ -165,16 +171,18 @@
             this.combo3.Items.AddRange(new object[] {
             "5598174990",
             "5587145660"});
-            this.combo3.Location = new System.Drawing.Point(101, 356);
+            this.combo3.Location = new System.Drawing.Point(90, 285);
+            this.combo3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.combo3.Name = "combo3";
-            this.combo3.Size = new System.Drawing.Size(330, 28);
+            this.combo3.Size = new System.Drawing.Size(294, 24);
             this.combo3.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(239, 406);
+            this.button1.Location = new System.Drawing.Point(212, 325);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 39);
+            this.button1.Size = new System.Drawing.Size(171, 31);
             this.button1.TabIndex = 12;
             this.button1.Text = "Данс нээх";
             this.button1.UseVisualStyleBackColor = true;
@@ -184,9 +192,11 @@
             // 
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Location = new System.Drawing.Point(59, 26);
+            this.groupBox1.Location = new System.Drawing.Point(52, 21);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(372, 67);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(331, 54);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Дансны төрөл:";
@@ -195,18 +205,20 @@
             // 
             this.groupBox2.Controls.Add(this.type1);
             this.groupBox2.Controls.Add(this.type2);
-            this.groupBox2.Location = new System.Drawing.Point(59, 110);
+            this.groupBox2.Location = new System.Drawing.Point(52, 88);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(372, 67);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(331, 54);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Хадгаламжийн төрөл:";
             // 
             // NewAccount
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 490);
+            this.ClientSize = new System.Drawing.Size(452, 392);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
@@ -217,8 +229,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "NewAccount";
             this.Text = "Данс нээх";
+            this.Load += new System.EventHandler(this.NewAccount_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

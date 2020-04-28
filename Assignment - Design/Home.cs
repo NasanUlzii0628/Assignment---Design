@@ -21,5 +21,28 @@ namespace Assignment___Design
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NewAccount na = new NewAccount();
+            na.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Report r = new Report();
+            r.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 f = new Form1();
+            f.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(1);
+        }
     }
 }
