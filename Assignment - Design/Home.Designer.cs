@@ -1,4 +1,4 @@
-﻿namespace Assignment___Design
+namespace Assignment___Design
 {
     partial class Home
     {
@@ -37,27 +37,30 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(513, 104);
+            this.button1.Location = new System.Drawing.Point(456, 83);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(260, 57);
+            this.button1.Size = new System.Drawing.Size(231, 46);
             this.button1.TabIndex = 2;
             this.button1.Text = "Хадгаламжийн данс нээх";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(513, 183);
+            this.button2.Location = new System.Drawing.Point(456, 146);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(260, 57);
+            this.button2.Size = new System.Drawing.Size(231, 46);
             this.button2.TabIndex = 3;
             this.button2.Text = "Тайлан, дансны хуулга";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(513, 265);
+            this.button3.Location = new System.Drawing.Point(456, 212);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(260, 57);
+            this.button3.Size = new System.Drawing.Size(231, 46);
             this.button3.TabIndex = 4;
             this.button3.Text = "Тооцоолуур";
             this.button3.UseVisualStyleBackColor = true;
@@ -67,33 +70,35 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(150, 422);
+            this.label1.Location = new System.Drawing.Point(88, 338);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 32);
+            this.label1.Size = new System.Drawing.Size(150, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Zenith Bank";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(513, 346);
+            this.button4.Location = new System.Drawing.Point(456, 277);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(260, 57);
+            this.button4.Size = new System.Drawing.Size(231, 46);
             this.button4.TabIndex = 5;
             this.button4.Text = "Гарах";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = global::Assignment___Design.Properties.Resources.pop;
-            this.ClientSize = new System.Drawing.Size(866, 527);
+            this.ClientSize = new System.Drawing.Size(770, 422);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Home";
             this.ShowIcon = false;
             this.Text = "Э. Насан-Өлзий";
