@@ -94,7 +94,6 @@ namespace Assignment___Design
             this.button1.TabIndex = 25;
             this.button1.Text = "ҮРГЭЛЖЛҮҮЛЭХ";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox4
             // 
@@ -105,7 +104,6 @@ namespace Assignment___Design
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(185, 27);
             this.textBox4.TabIndex = 24;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox3
             // 
@@ -171,7 +169,7 @@ namespace Assignment___Design
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(307, 221);
             this.panel1.TabIndex = 26;
-            this.panel1.Visible = false;
+            this.panel1.Visible = true;
             // 
             // panel2
             // 
@@ -211,7 +209,6 @@ namespace Assignment___Design
             this.button2.TabIndex = 25;
             this.button2.Text = "ҮРГЭЛЖЛҮҮЛЭХ";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox5
             // 
@@ -231,7 +228,6 @@ namespace Assignment___Design
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(185, 27);
             this.textBox6.TabIndex = 24;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label5
             // 
@@ -300,7 +296,6 @@ namespace Assignment___Design
             this.button3.TabIndex = 25;
             this.button3.Text = "ХАДГАЛАХ";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox9
             // 
