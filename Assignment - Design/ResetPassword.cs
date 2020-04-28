@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Assignment___Design
 {
-    public partial class Form3 : Form
+    public partial class ResetPassword : Form
     {
         public ResetPassword()
         {
