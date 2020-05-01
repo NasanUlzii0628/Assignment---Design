@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,18 @@ namespace Assignment___Design
 {
     public partial class NewAccount : Form
     {
-        public NewAccount()
+        private string connetionString;
+        SqlConnection cnn;
+        SqlCommand command;
+        private SqlDataAdapter adapter;
+        String sql, code = "";
+        string dansTurul = "", hadTurul = "", prod = "", tem = "", dans = "";
+        public NewAccount(string code)
         {
             InitializeComponent();
+            connetionString = @"Data Source=DESKTOP-DLOHQJ8;Initial Catalog=ZenithDataBase;Integrated Security=true";
+            cnn = new SqlConnection(connetionString);
+            this.code = code;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -42,10 +52,21 @@ namespace Assignment___Design
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             if (type1.Checked)
             {
                 if (combo2.SelectedItem != null && combo3.SelectedItem != null && product.SelectedItem != null)
                 {
+
+                    cnn.Open();
+                    string date = DateTime.Now.ToString("yyy-M-d");
+                    DateTime date2 = DateTime.Now.AddDays(1825);
+                    sql = "insert into hadgalamjInfo values ("+code+",'"+date+"','"+date2.ToString("yyyy-M-d")+"', 20000)";
+                    command = new SqlCommand(sql, cnn);
+                    adapter.InsertCommand = new SqlCommand(sql, cnn);
+                    adapter.InsertCommand.ExecuteNonQuery();
+                    command.Dispose();
+                    cnn.Close();
                     MessageBox.Show("Данс амжилттай нээгдлэээ");
                 }
                 else
@@ -67,7 +88,17 @@ namespace Assignment___Design
             }
             else if (radioButton1.Checked)
             {
-                MessageBox.Show("Данс амжилттай нээгдлэээ");
+                cnn.Open();
+                string date = DateTime.Now.ToString("yyy-M-d");
+                DateTime date2 = DateTime.Now.AddDays(1825);
+                sql = "insert into hadgalamjInfo values ( '1000'," + code + ",'" + date + "','" + date2.ToString("yyyy-M-d") + "', 20000)";
+                MessageBox.Show(sql);
+                command = new SqlCommand(sql, cnn);
+                adapter.InsertCommand = new SqlCommand(sql, cnn);
+                adapter.InsertCommand.ExecuteNonQuery();
+                command.Dispose();
+                cnn.Close();
+                MessageBox.Show("Данс амжилттай нээгдлээ");
                 this.Hide();
             }
             else {

@@ -12,9 +12,11 @@ namespace Assignment___Design
 {
     public partial class Home : Form
     {
-        public Home()
+        string code = "";
+        public Home(string code)
         {
             InitializeComponent();
+            this.code = code;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -24,7 +26,7 @@ namespace Assignment___Design
 
         private void button1_Click(object sender, EventArgs e)
         {
-            NewAccount na = new NewAccount();
+            NewAccount na = new NewAccount(code);
             na.Show();
         }
 
