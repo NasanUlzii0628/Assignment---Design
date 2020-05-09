@@ -32,7 +32,7 @@ namespace Assignment___Design
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Report r = new Report();
+            Report r = new Report(code);
             r.Show();
         }
 
